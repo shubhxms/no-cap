@@ -22,7 +22,7 @@ const randomCap = (input, output, setOutput) => {
 		modArr.push(modWord)
 	}
 	modStr = modArr.join(' ')
-	setOutput([...output, modStr]);
+	setOutput([modStr,...output]);
 	return modStr
 }
 

@@ -1,7 +1,7 @@
 
 
 const upperCap = (input, output, setOutput) => {
-	setOutput([...output, input.toUpperCase()])
+	setOutput([input.toUpperCase(), ...output])
 	return input.toUpperCase()
 
 }

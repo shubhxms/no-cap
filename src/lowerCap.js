@@ -1,7 +1,7 @@
 
 
 const lowerCap = (input, output, setOutput) => {
-	setOutput([...output, input.toLowerCase()])
+	setOutput([input.toLowerCase(), ...output])
 	return input.toLowerCase()
 }
 
